@@ -9,7 +9,7 @@ dotenv.load_dotenv()
 # load_dotenv()
 #TODO remeber to add a method to grab the token from a text file and insert it into TOKEN. DONE
 TOKEN = os.getenv('Token')
-GUILD = 'TEST server'
+GUILD = 'Sandbox server'
 
 
 client = discord.Client(intents=discord.Intents.all())
