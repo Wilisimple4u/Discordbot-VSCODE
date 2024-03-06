@@ -14,24 +14,6 @@ GUILD = 'Sandbox server'
 
 client = discord.Client(intents=discord.Intents.all())
 
-# Kommentar fra Sondre:
-# ======================
-# PS: Her trenger du ikke gjenta ordene, men heller bruke en funksjon som konverterer alt til lowercase (word.lower()),
-# da blir det mindre arbeid :)
-# (Jeg endra koden for å vise)
-
-# GAMMEL, uten lowercase:
-#badWords = [
-#    "fuck", "Fuck", "FUCK",
-#    "shit", "Shit", "SHIT",
-#    "hell", "Hell", "HELL",
-#    "dick", "Dick", "DICK",
-#    "bitch", "Bitch", "BITCH",
-#    "asshole", "Asshole", "ASSHOLE",
-#    "goddamn", "God damn",
-#    "Jesus", "jesus",
-#    "nigger", "Nigger", "NIGGER",
-#]
 
 # NY, med lowercase:
 badWords = [
