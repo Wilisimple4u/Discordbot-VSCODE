@@ -1,5 +1,5 @@
 # bot.py
-from utyl import *
+import utyl # have "utyl." infront of utyl variabl, You can also "import utyl as (Name)" to make it go by a different name.  
 import discord
 import os
 import dotenv
@@ -16,6 +16,7 @@ GUILD = 'Sandbox server'
 client = discord.Client(intents=discord.Intents.all())
 
 
+
 # NY, med lowercase:
 badWords = [
     "fuck",
@@ -24,7 +25,7 @@ badWords = [
     "dick",
     "bitch",
     "asshole",
-    "goddamn", "god damn",
+    "goddamn", "nigga",
     "jesus",
     "nigger",
 ]
