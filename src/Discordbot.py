@@ -55,7 +55,7 @@ theList = [
 async def on_message(message):
     if message.author == client.user:
         return
-    START_URL = 'https://cat-fact.herokuapp.com'
+    START_URL = 'https://api.chucknorris.io/jokes/random'
 
     if message.content == "!list":
         await message.channel.send("Here is a list of commands:")
@@ -119,7 +119,7 @@ async def on_message(message):
         return
 
     if message.content == "!API":
-        url = START_URL+'/facts'
+        url = START_URL+'/jokes/random'
         r = requests.get(url)
         joke = json.loads(r.text) #gjør om til python object
         await message.channel.send(joke.get('value', 'no jokes :('))
