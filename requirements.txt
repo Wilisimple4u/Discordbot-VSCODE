@@ -3,4 +3,3 @@ discord
 python-dotenv
 requests
 json
-Flask
