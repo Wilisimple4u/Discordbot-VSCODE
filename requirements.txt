@@ -1,6 +1,5 @@
 aiohttp
 discord
 python-dotenv
-json
 requests
 fastapi
