@@ -39,3 +39,16 @@ def do_roast(name, age):
     print(".")
     time.sleep(0.5)
     print(name + "!!!!!")
+
+class Test:
+    def __init__(self) -> None:
+        pass
+
+    def hello(self):
+        print(f'hello')
+hello = f'hello'
+
+test = Test()
+
+test.hello
+hello

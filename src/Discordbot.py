@@ -4,6 +4,7 @@ import discord
 import os
 import dotenv
 import requests
+import fastapi
 dotenv.load_dotenv()
 
 

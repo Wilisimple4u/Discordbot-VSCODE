@@ -2,3 +2,4 @@ aiohttp
 discord
 python-dotenv
 requests
+fastapi
