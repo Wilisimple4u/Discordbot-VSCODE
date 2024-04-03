@@ -34,7 +34,7 @@ badWords = [
 
 theList = [
     "!list",    "!hi",
-        "!wow",    "!error",
+        "!API",    "!error",
         "!great success",
         "!thanks",  "!intro",
         "!greet",   "!clear x",
@@ -55,6 +55,7 @@ theList = [
 async def on_message(message):
     if message.author == client.user:
         return
+    START_URL = 'https://cat-fact.herokuapp.com'
 
     if message.content == "!list":
         await message.channel.send("Here is a list of commands:")
@@ -117,8 +118,11 @@ async def on_message(message):
         await message.channel.send("Hi my name is Jordi, I will help with whatever is in my ability")
         return
 
-    if message.content == "!wow":
-        await message.channel.send("error")
+    if message.content == "!API":
+        url = START_URL+'/facts'
+        r = requests.get(url)
+        joke = json.loads(r.text) #gjør om til python object
+        await message.channel.send(joke.get('value', 'no jokes :('))
         return
 
     if message.content == "!error":
