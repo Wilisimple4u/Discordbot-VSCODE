@@ -1,6 +1,6 @@
 # I did a thing in a place in a time and you want to copy/learn from it.
 
-This project uses Python and has been made in Visual Studio CODE.
+This project uses Python and has been made in Visual Studio CODE. Going to be using this to create a bot that can use and request information through an Api. I will then use this bots structure to make a new bot in C# instead of python which is the current language used.
 
 ## The Process
 
