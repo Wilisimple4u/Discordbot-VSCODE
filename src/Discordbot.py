@@ -8,6 +8,7 @@ import json
 dotenv.load_dotenv()
 
 
+
 # load_dotenv()
 #TODO remeber to add a method to grab the token from a text file and insert it into TOKEN. DONE
 TOKEN = os.getenv('Token')
@@ -39,6 +40,15 @@ theList = [
         "!greet",   "!clear x",
         "!test",    "!clear last",
 ]
+
+#from src import utyl
+
+
+#@app.route('/facts')
+#def get_facts():
+#    fact = facts.get_facts()
+#    return flask.render_template('fact.html', fact=fact) 
+
 
 
 @client.event

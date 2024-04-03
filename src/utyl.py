@@ -6,6 +6,15 @@ import json
 import requests
 
 
+#def get_facts():
+#    url = 'https://cat-fact.herokuapp.com/facts'
+#    r = requests.get(url)
+#    fact = json.loads(r.text)
+#    return fact.get('value', 'no fact')
+
+#print(get_facts())
+
+
 item = [
     "water is good",
     "throw your self",
