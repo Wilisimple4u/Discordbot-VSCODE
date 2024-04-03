@@ -4,7 +4,7 @@ import discord
 import os
 import dotenv
 import requests
-import fastapi
+from fastapi import FastAPI
 dotenv.load_dotenv()
 
 
@@ -13,9 +13,7 @@ dotenv.load_dotenv()
 TOKEN = os.getenv('Token')
 GUILD = 'Sandbox server'
 
-
 client = discord.Client(intents=discord.Intents.all())
-
 
 
 # NY, med lowercase:
