@@ -2,5 +2,5 @@ aiohttp
 discord
 python-dotenv
 requests
-fastapi
 json
+Flask

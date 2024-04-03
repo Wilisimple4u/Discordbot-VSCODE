@@ -4,6 +4,7 @@ import discord
 import os
 import dotenv
 import requests
+import json
 dotenv.load_dotenv()
 
 
@@ -13,6 +14,7 @@ TOKEN = os.getenv('Token')
 GUILD = 'Sandbox server'
 
 client = discord.Client(intents=discord.Intents.all())
+
 
 
 # NY, med lowercase:
