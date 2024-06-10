@@ -1,5 +1,5 @@
 # bot.py
-import utyl # have "utyl." infront of utyl variabl, You can also "import utyl as (Name)" to make it go by a different name.  
+import utyl # have "utyl." infront of utyl variable, You can also "import utyl as (Name)" to make it go by a different name.  
 import discord
 import os
 import dotenv
