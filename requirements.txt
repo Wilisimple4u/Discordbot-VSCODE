@@ -2,4 +2,3 @@ aiohttp
 discord
 python-dotenv
 requests
-json
